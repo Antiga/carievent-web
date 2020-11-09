@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --color1: #e0e1dd;
+    --color2: #778da9;
+    --color3: #415a77;
+    --color4: #1b263b;
+    --color5: #0d1b2a;
+    --font-main:'Raleway', sans-serif;
+}
+
+nav{
+    background-color: var(--color1);
+    padding: 0px !important;
+}
+
+nav ul li a{
+    color: var(--color3) !important;
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-logo{
+    height: 28px;
+}
+
+.daftar{
+    background-color: var(--color2);
+    padding: 0.75rem 1.5rem;
+}
+
+.daftar a{
+    color: var(--color1) !important;
+}
