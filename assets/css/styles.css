@@ -28,6 +28,11 @@ nav ul li a{
     font-weight: 500;
 }
 
+input:focus{
+    border-color: var(--color2) !important;
+    box-shadow: 0 0 4px var(--color2) !important;
+}
+
 .nav-logo{
     height: 28px;
 }
@@ -64,8 +69,48 @@ nav ul li a{
     font-weight: 500;
 }
 
+.middle{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .image-hero{
-    height: 380px;
+    width: 100%;
+}
+
+@media (min-width: 576px){
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (max-width: 576px){
+    .col-md-6{
+        padding: 0.25rem !important;
+        margin: 0.25rem !important;
+    }
+    .card-body{
+        padding: 1.25rem !important;
+        margin: 1rem !important;
+    }
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 992px){
+
 }
 
 .card-title-kategori{
