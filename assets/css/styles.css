@@ -103,6 +103,11 @@ input:focus{
         padding: 1.25rem !important;
         margin: 1rem !important;
     }
+    .title-hero{
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 120%;
+    }
 }
 
 @media (max-width: 768px){
