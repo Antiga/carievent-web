@@ -206,3 +206,13 @@ footer a{
     color: var(--color5) !important;
     text-decoration: none;
 }
+
+/* File event.html */
+#title-event{
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.button-hadir{
+    background-color: var(--color2);
+    border-radius: 12px;
+    color: var(--white);
+}
