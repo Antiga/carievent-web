@@ -92,11 +92,17 @@ hr{
     width: 100%;
 }
 
+.carakerja{
+    margin: 5rem !important;
+}
+
 @media (min-width: 576px){
 }
 
 @media (min-width: 768px){
-
+    .peserta{
+        padding: 0 5rem !important;
+    }
 }
 
 @media (min-width: 992px){
@@ -116,6 +122,13 @@ hr{
         padding: 1.25rem !important;
         margin: 1rem !important;
     }
+    .carakerja{
+        padding: 1.25rem !important;
+        margin: 1rem !important;
+    }
+    .peserta{
+        padding: 1rem 0 !important;
+    }
     .title-hero{
         font-size: 40px;
         font-weight: 800;
@@ -124,7 +137,7 @@ hr{
 }
 
 @media (max-width: 768px){
-
+    
 }
 
 @media (max-width: 992px){
@@ -170,6 +183,10 @@ hr{
 
 .text-28{
     font-size: 180% !important;
+}
+
+.text-24{
+    font-size: 140% !important;
 }
 
 .color-3{
