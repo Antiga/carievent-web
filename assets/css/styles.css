@@ -247,3 +247,11 @@ footer a{
     border-radius: 12px;
     color: var(--white);
 }
+/* File carakerja.html */
+.button-title-carakerja{
+    background-color: var(--color3);
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 14px;
+    width: 100%;
+}
