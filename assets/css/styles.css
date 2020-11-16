@@ -93,7 +93,7 @@ hr{
 }
 
 .carakerja{
-    margin: 5rem !important;
+    margin: 6rem !important;
 }
 
 @media (min-width: 576px){
@@ -101,12 +101,14 @@ hr{
 
 @media (min-width: 768px){
     .peserta{
-        padding: 0 5rem !important;
+        padding: 0 2rem !important;
     }
 }
 
 @media (min-width: 992px){
-
+    .peserta{
+        padding: 0 5rem !important;
+    }
 }
 
 @media (min-width: 1200px){
@@ -244,6 +246,15 @@ footer a{
     background-color: var(--color2);
     border-radius: 12px;
     color: var(--white);
+}
+
+/* File carakerja.html */
+.button-title-carakerja{
+    background-color: var(--color3);
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 14px;
+    width: 100%;
 }
 
 .card-title{
