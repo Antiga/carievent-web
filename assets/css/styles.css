@@ -177,6 +177,10 @@ hr{
     background-color: var(--color3) !important;
 }
 
+.bg-4{
+    background-color: var(--color4) !important;
+}
+
 .text-12{
     font-size: 12px !important;
 }
@@ -240,12 +244,4 @@ footer a{
     background-color: var(--color2);
     border-radius: 12px;
     color: var(--white);
-}
-/* File carakerja.html */
-.button-title-carakerja{
-    background-color: var(--color3);
-    border-radius: 10px;
-    color: var(--white);
-    font-size: 14px;
-    width: 100%;
 }
